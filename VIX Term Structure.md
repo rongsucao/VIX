@@ -256,3 +256,24 @@ Finally, take the square root to get volatility, and multiply by 100 to get the 
 >  
 >Step 5: Calculate VIX  
 >$$\text{VIX} = 100 \times \sqrt{0.0476} = 100 \times 0.218 = \mathbf{21.8}$$  
+
+<img width="1240" height="521" alt="image" src="https://github.com/user-attachments/assets/ce88869d-973d-4e15-bbf3-da7712cf8bf7" />
+
+### **6. VIX Future Curve**   
+VIX spot vs VIX future:  
+VIX Future ≠ Future price of VIX Spot.  
+**The Key Distinction**  
+| | VIX Spot| VIX Future|  
+|--|--|--|
+|Definition|Expected 30-day variance starting from today|Expected 30-day variance staring from a future date|  
+|Time Period| Day 0 -> Day 30| Day T -> Day T+30|  
+|Tradeable| No(just an index) | Yes(exchange-traded)|  
+|Settlement| N/A| Cash-settled to VRO|  
+
+<img width="1179" height="606" alt="image" src="https://github.com/user-attachments/assets/10d843b7-74fe-43d8-a0a1-5e15fbb52296" />
+
+
+
+
+
+
