@@ -272,8 +272,27 @@ VIX Future ≠ Future price of VIX Spot.
 
 <img width="1179" height="606" alt="image" src="https://github.com/user-attachments/assets/10d843b7-74fe-43d8-a0a1-5e15fbb52296" />
 
+**VIX Future**  
+VIX Future(UX1) = Expected volatility from FUTURE DATE to 30 days after that.  
 
+**How to Calculate VIX Futures?**  
+The problem:  
+For example: we want to calculate expected variance between 7/21 and 8/18.   
+What we have:  
+options with expiration date 7/21 -> tell us the total variance between today and 7/21  
+options with expiration date 8/18 -> tell us the total variance between today and 8/18  
 
+Given that both expirations are rooted in today, how do we derive the forward variance between the two expiration dates?  
+The Solution: Forward Variance  
+<img width="361" height="216" alt="image" src="https://github.com/user-attachments/assets/e5174c62-de71-4ee6-b69f-cc4525c611b0" />
+  
+**The Forward Variance Formula**  
+Since variance is additive over time:  
+$$TotalVar_{T_1 -> T_2} = TotalVar_{0 -> T_2} - TotalVar_{0 -> T_1}$$  
+Converting to Annualized Variance:  
+$$\sigma^2_{T_1 \to T_2} = \frac{\text{TotalVar}_{T_1 \to T_2}}{T_2 - T_1}$$
 
+The Complete Forward Volatility Formula  
+$$\sigma_{T_1 \to T_2} = \sqrt{\frac{\sigma^2_{T_2} \cdot T_2 - \sigma^2_{T_1} \cdot T_1}{T_2 - T_1}}$$   
 
 
