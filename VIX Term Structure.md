@@ -17,7 +17,8 @@ Interpreting VIX Levels:
 
 **Converting to Different Time Horizons:**  
 
-![alt text](image.png)  
+<img width="369" height="171" alt="image" src="https://github.com/user-attachments/assets/c7038778-6aa4-44e1-a6b4-32e64dd54a38" />
+
 **Example:**  
 VIX = 16  
 Expected monthly move: 16/3.46 ≈ 4.6%  
