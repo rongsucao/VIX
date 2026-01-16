@@ -296,3 +296,15 @@ The Complete Forward Volatility Formula
 $$\sigma_{T_1 \to T_2} = \sqrt{\frac{\sigma^2_{T_2} \cdot T_2 - \sigma^2_{T_1} \cdot T_1}{T_2 - T_1}}$$   
 
 
+**Calculating UX1 and UX2**  
+
+1. Identify the revelevant dates:  
+> Suppose we have data, 6 option expiry date.  
+> 6/16(5 days from today)  
+> 7/21(40 days from today)  
+> 8/18(68 days from today)  
+> 9/22(103 days from today)  
+> ...  
+> VIX Spot already used 6/16 and 7/21 (to interpolate to 30 days from today).  
+>   
+
